@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#F3F3F3;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #777777;
+}
+
+.logo {
+    display: inline-block;
+}
+.menu-name {
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.menu-name a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+    justify-items: center;
+    font-size: 20px;
+}
+
+.search-cart {
+    display: inline-block;
+}
+
+.hero {
+    margin: 10px;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+}
+
+.hero-text {
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    display: inline-block;
+    justify-items: center;
+
+    
+}
+
+.hero-photo {
+    margin: 20px;
+    display: inline-block;
+    width: 60%;
+}
+
+.holo-products {
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.holo-phone {
+    margin-right: 10px;
+    padding: 40px;
+    display: inline-block;
+    background-color: #fff;
+    width: 50%;
+}
+
+.holo-phone-desc {
+    margin-bottom: 30px;
+}
+
+.holo-watch {
+    margin-left: 10px;
+    padding: 40px;
+    display: inline-block;
+    background-color: #fff;
+    width: 50%;
+}
+
+.holo-watch-desc {
+    margin-bottom: 30px;
+}
+
+.footer {
+    margin-top: 50px;
+    margin: auto;
+    justify-content: center;
+    width: 60%;
+    color: #8B8B8B;
+    font-size: 20px;
+}
+
+.footer p {
+    margin: 10px;
+}
