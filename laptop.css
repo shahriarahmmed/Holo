@@ -4,6 +4,12 @@ h1 {
     text-align: center;
 }
 
+.filter {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: right;
+}
+
 .cards-row-1 {
     display: flex;
 }
